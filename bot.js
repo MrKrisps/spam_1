@@ -195,7 +195,7 @@ client10.on("message", message => {
 
 
 client.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspaam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -211,7 +211,7 @@ if (message.content === 'Kspam') {
 
 
 client2.on('message', message => {
-if (message.content === 'Kspam') {
+if (message.content === 'Kspaam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -227,7 +227,7 @@ if (message.content === 'Kspam') {
 
 
 client3.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspaam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -243,7 +243,7 @@ if (message.content === 'Kspam') {
 
 
 client4.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspaam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -259,7 +259,7 @@ if (message.content === 'Kspam') {
 
 
 client5.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspaam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -275,7 +275,7 @@ if (message.content === 'Kspam') {
 
 
 client6.on('message', message => {
-if (message.content === 'Kspam') {
+if (message.content === 'Kspamm') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -291,7 +291,7 @@ if (message.content === 'Kspam') {
 
 
 client7.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspamm') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -307,7 +307,7 @@ if (message.content === 'Kspam') {
 
 
 client8.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspamm') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -323,7 +323,7 @@ if (message.content === 'Kspam') {
 
 
 client9.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspamm') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
@@ -339,7 +339,7 @@ if (message.content === 'Kspam') {
 
 
 client10.on('message', message => { 
-if (message.content === 'Kspam') {
+if (message.content === 'Kspamm') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
