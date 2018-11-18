@@ -4,7 +4,7 @@ const client2 = new Discord.Client();
 var prefix = "1";
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
+  console.log(`tkota online`);  
 });
 
 client.on('ready', async() => {
