@@ -34,7 +34,7 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
 
 
 client2.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
+  console.log(`kvebrn online`);  
 });
 
 client2.on('ready', async() => {
