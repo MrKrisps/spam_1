@@ -1,68 +1,114 @@
-﻿const Discord = require('discord.js');
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
-var prefix = "1";
+const client3 = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`tkota online`);  
+   console.log(`----------------`);
+   console.log(` Bots Online ' `);
+   console.log(`----------------`);
 });
 
-client.on('ready', async() => {
-var server = "431925238524280835"; // ايدي السررفر
-var channel = "513694307241426944";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , **')
-    },305);
-})
 
 client.on('message', message => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
-
-  let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
-
-  let args = message.content.split(" ").slice(1);
-
-  if (command == "say") {
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
-   message.channel.sendMessage(args.join("  "))
-   message.delete()
-  }
- });
-
-
-
-client2.on('ready', () => {
-  console.log(`kvebrn online`);  
+    if(message.content === 'repme'){
+        message.channel.send('#rep <@321268713183772683>')
+    }
 });
 
-client2.on('ready', async() => {
-var server = "431925238524280835"; // ايدي السررفر
-var channel = "513694307241426944";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , Krisps , **')
-    },305);
-})
+
+client3.on('message', message => {
+    if(message.content === 'repme'){
+        message.channel.send('#rep <@321268713183772683>')
+    }
+});
+
+
 
 client2.on('message', message => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
+    if(message.content === 'repme'){
+        message.channel.send('#rep <@321268713183772683>')
+    }
+});
 
-  let command = message.content.split(" ")[0];
-  command = command.slice(prefix.length);
 
-  let args = message.content.split(" ").slice(1);
-
-  if (command == "say") {
-if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|**\`ADMINISTRATOR\`ليس لديك صلاحيات`**');
-   message.channel.sendMessage(args.join("  "))
-   message.delete()
+client.on("message", message => {
+  if (message.author.id != "460606140666085378") return;
+  if (message.content.split(' ')[0] == 'Ksay') {
+    message.delete();
+    message.channel.sendMessage(message.content.substr(5));
   }
- });
+});
 
- 
+
+
+client2.on("message", message => {
+  if (message.author.id != "460606140666085378") return;
+  if (message.content.split(' ')[0] == 'Ksay') {
+    message.delete();
+    message.channel.sendMessage(message.content.substr(5));
+  }
+});
+
+
+
+client3.on("message", message => {
+  if (message.author.id != "438862789302419464") return;
+  if (message.content.split(' ')[0] == 'Ksay') {
+    message.delete();
+    message.channel.sendMessage(message.content.substr(5));
+  }
+});
+
+
+client.on('message', message => { 
+if (message.content === 'Kspam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+
+client3.on('message', message => { 
+if (message.content === 'Kspam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+
+
+client2.on('message', message => {
+if (message.content === 'Kspam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+
 
 
 client.login(process.env.BOT_TOKEN);
-client2.login(process.env.BOT_TOKEN_2);
+client2.login(process.env.BOT_TOKEN2);
+client3.login(process.env.BOT_TOKEN3);
