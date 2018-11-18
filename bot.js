@@ -209,6 +209,23 @@ if (message.content === 'Kspam') {
 });
 
 
+
+client2.on('message', message => {
+if (message.content === 'Kspam') {
+      let count = 0;
+      let ecount = 0;
+      for(let x = 0; x < 90000; x++) {
+        message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
+          .then(m => {
+            count++;
+          })
+          
+        }
+      }
+});
+
+
+
 client3.on('message', message => { 
 if (message.content === 'Kspam') {
       let count = 0;
@@ -238,6 +255,7 @@ if (message.content === 'Kspam') {
         }
       }
 });
+
 
 
 client5.on('message', message => { 
@@ -287,6 +305,7 @@ if (message.content === 'Kspam') {
 });
 
 
+
 client8.on('message', message => { 
 if (message.content === 'Kspam') {
       let count = 0;
@@ -332,7 +351,6 @@ if (message.content === 'Kspam') {
         }
       }
 });
-
 
 
 
