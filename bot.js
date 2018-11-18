@@ -33,7 +33,7 @@ client2.on('message', message => {
 
 
 client.on("message", message => {
-  if (message.author.id != "460606140666085378") return;
+  if (message.author.id != "321268713183772683") return;
   if (message.content.split(' ')[0] == 'Ksay') {
     message.delete();
     message.channel.sendMessage(message.content.substr(5));
@@ -43,7 +43,7 @@ client.on("message", message => {
 
 
 client2.on("message", message => {
-  if (message.author.id != "460606140666085378") return;
+  if (message.author.id != "321268713183772683") return;
   if (message.content.split(' ')[0] == 'Ksay') {
     message.delete();
     message.channel.sendMessage(message.content.substr(5));
@@ -53,7 +53,7 @@ client2.on("message", message => {
 
 
 client3.on("message", message => {
-  if (message.author.id != "438862789302419464") return;
+  if (message.author.id != "321268713183772683") return;
   if (message.content.split(' ')[0] == 'Ksay') {
     message.delete();
     message.channel.sendMessage(message.content.substr(5));
