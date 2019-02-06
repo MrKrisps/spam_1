@@ -195,10 +195,10 @@ client10.on("message", message => {
 
 
 client.on('message', message => { 
-if (message.content === 'Kspaam') {
+if (message.content === 'Kspam1') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 140000; x++) {
         message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
           .then(m => {
             count++;
@@ -211,10 +211,10 @@ if (message.content === 'Kspaam') {
 
 
 client2.on('message', message => {
-if (message.content === 'Kspaam') {
+if (message.content === 'Kspam1') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 140000; x++) {
         message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
           .then(m => {
             count++;
@@ -227,10 +227,10 @@ if (message.content === 'Kspaam') {
 
 
 client3.on('message', message => { 
-if (message.content === 'Kspaam') {
+if (message.content === 'Kspam1') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 140000; x++) {
         message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
           .then(m => {
             count++;
@@ -243,10 +243,10 @@ if (message.content === 'Kspaam') {
 
 
 client4.on('message', message => { 
-if (message.content === 'Kspaam') {
+if (message.content === 'Kspam1') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 140000; x++) {
         message.channel.send(`**wxy Spam **[ #" ${x} " ]`)
           .then(m => {
             count++;
